@@ -9,7 +9,7 @@ export default async function Works() {
           key={index}
           className="w-full rounded-md bg-gray-50 cursor-pointer transition ease-in-out hover:-translate-y-2 duration-500 hover:shadow-md"
         >
-          <Image src="/loading.jpg" width={500} alt={item.title} />
+          <Image src="/loading.jpg" width={500} height={10} alt={item.title} />
           <div className="m-3">
             <p className="font-medium">{item.title}</p>
             <span className="text-gray-700 leading-loose font-light">
